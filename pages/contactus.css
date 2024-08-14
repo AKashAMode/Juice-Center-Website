@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #faeee7;
+}
+
+.Contactus-title{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Pacifico", cursive;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.contact-us-container{
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+
+}
+
+.full-address-contain{
+
+    width: 350px;
+    max-width: 600px;
+    
+}
+
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
+.address-contain, .email-contain, .call-us-contain, .Ourtime-contain {
+    display: flex;
+    align-items: center; 
+}
+
+.query-form{
+   padding: 10px;
+   margin-right: 50px;
+   position: relative;
+}
+
+.input-field{
+   
+    margin-bottom: 25px;
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.para-margin{
+    margin-top: 100px;
+}
+
+#message-box{
+    height: 80px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #333; 
+    margin: 0;
+}
+
+.address-para, .email-para, .callus-para, .Ourtime-contain {
+    color: #666; 
+    margin: 0;
+    line-height: 1.5;
+}
+
+.png-height{
+    height: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.submit-btn{
+    width: 150px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-left: 20%;
+    color: #ffffff;
+    background: #e05757;
+}
+
+.head-add {
+    font-size: 16px;
+    color: #333;
+}
+
+.watermelom-png{
+    height: 200px;
+    position: absolute;
+    bottom:2px ;
+    right: 5px;
+    
+}

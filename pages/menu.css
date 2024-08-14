@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #faeee7;
+}
+
+.menu-heading{
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 45px;
+
+}
+
+
+.menu-card-container{
+    display: flex;
+     margin-top: 40px;
+     margin-bottom: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.menu-card{
+    width: 230px;
+    margin-bottom: 20px;
+    border: 2px solid #361c22;
+    border-radius: 5px;
+    background: #ffc6c7;
+    height: 340px;
+    /* mvfndlk */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.fruit-juice-img{
+
+    width: 176px;
+    height: 150px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.menu-title{
+    text-align: center;
+    /* xklvlsov */
+    margin-bottom: 10px;
+}
+
+
+.menu-description{
+    margin: 2px;
+    margin-left: 5px;
+    /* kdjvnldskvj */
+    text-align: center;
+    flex-grow: 1;
+    
+}
+
+.menu-para{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    /* kjxhsioghir */
+    text-align: center;
+    
+}
+
+.buy-btn{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 3px;
+    width: 90px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+     background-color: #ff4081;
+     width: 100%;
+     color: #fff;
+     text-align: center;
+}
+
+
+
+.buy-btn:hover{
+    cursor: pointer;
+    background: #c45c74;
+}
